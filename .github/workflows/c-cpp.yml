@@ -26,4 +26,4 @@ jobs:
       run: |
         cd RandomQuestions && mkdir build && cd build && cmake ..
         cmake --build . --config Release
-        ls - l
+        ls -l
