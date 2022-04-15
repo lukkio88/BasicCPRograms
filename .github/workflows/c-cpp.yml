@@ -16,6 +16,8 @@ jobs:
     - name: build
       run: | 
        cd RandomQuestions && mkdir build && cd build && cmake ..
+       cmake --build . --config Release
+       dir
 
   build-on-ubuntu:
     runs-on: ubuntu-latest
