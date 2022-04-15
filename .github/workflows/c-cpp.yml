@@ -11,6 +11,8 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3
+    - name: list-content
+    - run: dir
     - name: build
       run: mkdir build && cd build && cmake ..
 
@@ -22,3 +24,5 @@ jobs:
       run: ls -l
     - name: build
       run: cd RandomQuestions && mkdir build && cd build && cmake ..
+    - name: list-directories
+      run: ls -l
