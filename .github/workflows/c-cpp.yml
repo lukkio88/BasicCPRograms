@@ -21,4 +21,4 @@ jobs:
     - name: list-directories
       run: ls -l
     - name: build
-      run: mkdir build && cd build && cmake ..
+      run: cd BasicCPrograms && mkdir build && cd build && cmake ..
