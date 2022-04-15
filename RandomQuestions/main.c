@@ -86,8 +86,7 @@ int main(int argc, char** argv)
     char* filename = argv[1];
     FILE* fp;
     char currentLine[BUFFER_LENGTH];
-    int len = 0;
-    int read;
+    int len = BUFFER_LENGTH;
 
     fp = fopen(argv[1], "r");
     if (fp == NULL)
@@ -95,7 +94,7 @@ int main(int argc, char** argv)
 
     initList();
     rewind(fp);
-    while (((fgets(currentLine, len, fp)) != -1) && (feof(fp) == 0)) {
+    while (((fgets(currentLine, len, fp)) != NULL) && (feof(fp) == 0)) {
         insert(currentLine);
     }
 
@@ -110,7 +109,7 @@ int main(int argc, char** argv)
         x = x->next;
     }
 
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     while (numberQuestionsLeft > 0)
     {
         int currentQuestion = rand() % numberQuestionsLeft;
