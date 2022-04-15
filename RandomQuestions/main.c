@@ -86,7 +86,7 @@ int main(int argc, char** argv)
     char* filename = argv[1];
     FILE* fp;
     char currentLine[BUFFER_LENGTH];
-    size_t len = 0;
+    int len = 0;
     int read;
 
     fp = fopen(argv[1], "r");
