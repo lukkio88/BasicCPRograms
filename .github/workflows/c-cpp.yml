@@ -23,6 +23,7 @@ jobs:
     - name: list-directories
       run: ls -l
     - name: build
-      run: cd RandomQuestions && mkdir build && cd build && cmake ..
-    - name: after-build
-      run: ls -l
+      run: |
+        cd RandomQuestions && mkdir build && cd build && cmake ..
+        cmake --build . --config Release
+        ls - l
