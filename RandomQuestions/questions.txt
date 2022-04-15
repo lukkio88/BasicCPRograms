@@ -1,0 +1,46 @@
+Costo uniforme e costo logaritmico.
+Definizione ed esempi di O, Omega, Theta.
+Metodi di analisi: Caso peggiore, migliore e medio.
+Teorema fondamentale delle ricorrenze.
+Analisi di algoritmi randomizzati.
+Strutture dati elementari: array, record e puntatori.
+Strutture dati elementari: Pila e coda
+Strutture dati elementari: Alberi. Rappresentazioni indicizzate, collegate.
+Strutture dati elementari: Visite di alberi.
+Ordinamento: Delimitazione numero confronti, alberi di decisione e caso peggiore.
+Ordinamento: Ordinamenti incrementali e a bolle (con analisi).
+Ordinamento: Heapsort (pseudocodice ed analisi).
+Ordinamento: MergeSort (con analisi pseudocodice ed analisi).
+Ordinamento: BucketSort (pseudocodice ed analisi).
+Ordinamento: RadixSort (pseudocodice ed analisi).
+Alberi di ricerca: Alberi binari di ricerda.
+Alberi di ricerca: Alberi AVL, altezza dell'albero.
+Alberi di ricerca: Alberi AVL, inserimento con autobilanciamento.
+Alberi di ricerca: Alberi AVL, cancellazione con autobilanciamento.
+Tavole Hash: Tavole ad accesso diretto.
+Tavole Hash: Cos'e una funzione hash.
+Tavole Hash: Risoluzione collisioni mediante lista di collisioni (pseudocodice ed analisi).
+Tavole Hash: Risoluzione collisioni mediante indirizzamento aperto (pseudocodice ed analisi).
+Code con priorita: d-heap (pseudocodice delle varie operazioni ed analisi).
+Code con priorita: Heap binomiali (pseudocodice delle varie operazioni ed analisi).
+Union find: Approccio elementare di tipo quick union (con analisi).
+Union find: Approccio elementare di tipo quick find (con analisi).
+Union find: Euristiche di bilanciamento per union (per quick union).
+Union find: Euristiche di bilanciamento per union (per quick find).
+Union find: Euristiche di bilanciamento per find.
+Union find: Bilanciamento e compressione (prioprieta del rank ed analisi).
+Tecniche Algoritmiche: Spiegare la tecnica divide et impera e fornire un esempio della sua applicazione (con pseudocodice ed analisi).
+Tecniche Algoritmiche: Spiegare la programmazione dinamica e fornire un esempio (con pseudocodice ed analisi).
+Tecniche Algoritmiche: Spiegare la tecnica greedy e fornire un esempio (con pseudocodice ed analisi).
+Grafi e visite di Grafi: Definire cos'e' un grafo, grafo orientato, componente e componente fortemente connessa.
+Grafi e visite di Grafi: le possibili rappresentazioni (con analisi)
+Grafi e visite di grafi: Visita in ampiezza (con pseudocodice ed analisi).
+Grafi e visite di grafi: Visita in profondita (con pseudocodice ed analisi).
+Grafi e visite di grafi: Visita generica (con analisi in base alla rappresentazione utilizzata).
+Minimo albero ricoprente: Definizione di minimo albero ricoprente e proprieta.
+Minimo albero ricoprente: Algoritmo di Kruskal (pseudocodice con analisi).
+Minimo albero ricoprente: Algoritmo di Prim (pseudocodice con analisi).
+Cammini minimi: Definire cammino minimo e nozione di distanza in un grafo, con proprieta della funzione distanza.
+Cammini minimi: Definire la distanza tra vertici di un grafo. Definire albero dei cammini minimi.
+Cammini minimi: Algoritmo di bellman ford (pseudocodice con analisi).
+Cammini minimi: Algoritmo di Dijkstra (pseudocodice con analisi).
