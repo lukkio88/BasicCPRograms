@@ -95,7 +95,7 @@ int main(int argc, char** argv)
 
     initList();
     rewind(fp);
-    while (((fgets(currentLine, &len, fp)) != -1) && (feof(fp) == 0)) {
+    while (((fgets(currentLine, len, fp)) != -1) && (feof(fp) == 0)) {
         insert(currentLine);
     }
 
