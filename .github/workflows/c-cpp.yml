@@ -14,7 +14,8 @@ jobs:
     - name: list-content
       run: dir
     - name: build
-      run: mkdir build && cd build && cmake ..
+      run: | 
+       cd RandomQuestions && mkdir build && cd build && cmake ..
 
   build-on-ubuntu:
     runs-on: ubuntu-latest
@@ -27,3 +28,4 @@ jobs:
         cd RandomQuestions && mkdir build && cd build && cmake ..
         cmake --build . --config Release
         ls -l
+        
