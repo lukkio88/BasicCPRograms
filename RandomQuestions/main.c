@@ -116,7 +116,7 @@ int main(int argc, char** argv)
         int currentQuestion = rand() % numberQuestionsLeft;
         printf("%s", question[currentQuestion]->data);
         system("pause");
-        swap(question[currentQuestion]->data, question[--numberQuestionsLeft]);
+        swap(question[currentQuestion]->data, question[--numberQuestionsLeft]->data);
     }
 
     fclose(fp);
