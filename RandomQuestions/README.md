@@ -12,7 +12,7 @@ git clone https://github.com/lukkio88/BasicCPRograms.git
 ## How to build
  From the project folder run the following
  ```
- mkdir build && cd build && cmake .. && cmake --build . --config --Release
+ mkdir build && cd build && cmake .. && cmake --build . --config Release
  ```
  
 ## How to run
